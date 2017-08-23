@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+	<head>
+		<title>MadLibs</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles/main.css">
+		<link rel="stylesheet" href="styles/main2.css">
+	</head>
+	<body>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#">MADLIBS</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	</nav>
+
+	<br/>
+
+	<!-- CONTAINER -->
+	<div class="container">
+		<div class="jumbotron">
+			<h1 class="display-3">Play Madlibs, fam</h1>
+			<p class="lead js-madlibs-output">Input the following fields to generate an awesome madlib, yo</p>
+			<hr class="my-4">
+			
+			<form>
+				<!-- INPUTS -->
+				<div class="form-group">
+					<label for="exampleInputEmail1">Noun</label>
+					<input type="text" class="form-control noun" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Noun">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputEmail1">Adjective</label>
+					<input type="text" class="form-control adj" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Adjective">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputEmail1">Verb</label>
+					<input type="text" class="form-control verb" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Verb">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputEmail1">Adverb</label>
+					<input type="text" class="form-control adverb" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Adverb">
+				</div>
+				<!-- END INPUTS -->
+			</form>
+
+			<p class="lead">
+			<a class="btn btn-primary btn-lg create-madlib" href="#" role="button">Generate</a>
+			</p>
+		</div>
+	</div>
+	<!-- END CONTAINER -->
+	<script src="javascript/app.js"></script>
+	</body>
+</html>
+
+
+
+

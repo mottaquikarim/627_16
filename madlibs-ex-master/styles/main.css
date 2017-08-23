@@ -1,0 +1,47 @@
+/*body {
+	background-color: green;
+}
+*/
+
+h2 {
+	color: green;
+}
+
+/*
+BTDUBZ: this is a comment in css
+
+css commments are also multilined
+			like
+
+					this....
+*/
+
+.black-text {
+	color: yellow;
+}
+
+.main-menu-link { 
+/* 
+	we are searching for all NAV tags 
+	and INSIDE those NAV tags, all A tags
+*/
+	color: white;
+	background-color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a {
+	font-weight: 900;
+}
+
+
+
+
+
+
+
