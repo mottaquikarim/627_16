@@ -5,6 +5,7 @@
     <title>Find Developers on Startup Matchmaker</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oswald:700|Merriweather:700,700italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -24,8 +25,19 @@
     </header>
     <section class="profiles">
         <div class="wrapper">
+            <div class="js-slideshow">
+              <div>your content 1</div>
+              <div>your content 2</div>
+              <div>your content 3</div>
+            </div>
+            <div>
+                <button class="js-page">1</button>
+                <button class="js-page">2</button>
+                <button class="js-page">3</button>                
+            </div>
+            <button class="js-next">Next!</button>
             <ul class="cards">
-                <li class="card">
+                <li class="card card-class-2">
                     <article class="profile">
                         <figure>
                             <img src="http://placehold.it/280" alt="Some Person">
@@ -318,7 +330,9 @@
             (I got yo back, yo)
     -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="js/selectorsReview.js"></script>
-    <script src="js/basicMethodsReview.js"></script>
+    <!-- <script src="js/selectorsReview.js"></script> -->
+    <!-- <script src="js/basicMethodsReview.js"></script> -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script src="js/slick.example.js"></script>
 </body>
 </html>
